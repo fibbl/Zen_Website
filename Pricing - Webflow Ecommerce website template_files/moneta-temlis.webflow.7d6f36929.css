@@ -5711,7 +5711,7 @@ figcaption {
   grid-row-gap: .62rem;
   width: 100%;
   max-width: 27.75rem;
-  display: flex;
+  /* display: flex; */
 }
 
 .footer_input {
