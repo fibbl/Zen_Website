@@ -21337,48 +21337,48 @@ spurious results.`)
                   return l.source = "function(" + c + "){\n" + s + "}", l
               }, a)
           },
-          // 9461: function(e, t, n) {
-          //     "use strict";
-          //     var a = n(43949);
-          //     a.define("brand", e.exports = function(e) {
-          //         var t, n = {},
-          //             i = document,
-          //             r = e("html"),
-          //             o = e("body"),
-          //             s = window.location,
-          //             c = /PhantomJS/i.test(navigator.userAgent),
-          //             l = "fullscreenchange webkitfullscreenchange mozfullscreenchange msfullscreenchange";
+          9461: function(e, t, n) {
+              "use strict";
+              var a = n(43949);
+              a.define("brand", e.exports = function(e) {
+                  var t, n = {},
+                      i = document,
+                      r = e("html"),
+                      o = e("body"),
+                      s = window.location,
+                      c = /PhantomJS/i.test(navigator.userAgent),
+                      l = "fullscreenchange webkitfullscreenchange mozfullscreenchange msfullscreenchange";
 
-          //         function d() {
-          //             var n = i.fullScreen || i.mozFullScreen || i.webkitIsFullScreen || i.msFullscreenElement || !!i.webkitFullscreenElement;
-          //             e(t).attr("style", n ? "display: none !important;" : "")
-          //         }
-          //         n.ready = function() {
-          //             var n = r.attr("data-wf-status"),
-          //                 a = r.attr("data-wf-domain") || "";
-          //             /\.webflow\.io$/i.test(a) && s.hostname !== a && (n = !0), n && !c && (t = t || function() {
-          //                 var t = e('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs"),
-          //                     n = e("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon-d2.89e12c322e.svg").attr("alt", "").css({
-          //                         marginRight: "4px",
-          //                         width: "26px"
-          //                     });
-          //                 return t.append(n, a), t[0]
-          //             }(), u(), setTimeout(u, 500), e(i).off(l, d).on(l, d))
-          //         };
+                  // function d() {
+                  //     var n = i.fullScreen || i.mozFullScreen || i.webkitIsFullScreen || i.msFullscreenElement || !!i.webkitFullscreenElement;
+                  //     e(t).attr("style", n ? "display: none !important;" : "")
+                  // }
+                  // n.ready = function() {
+                  //     var n = r.attr("data-wf-status"),
+                  //         a = r.attr("data-wf-domain") || "";
+                  //     /\.webflow\.io$/i.test(a) && s.hostname !== a && (n = !0), n && !c && (t = t || function() {
+                  //         var t = e('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs"),
+                  //             n = e("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon-d2.89e12c322e.svg").attr("alt", "").css({
+                  //                 marginRight: "4px",
+                  //                 width: "26px"
+                  //             });
+                  //         return t.append(n, a), t[0]
+                  //     }(), u(), setTimeout(u, 500), e(i).off(l, d).on(l, d))
+                  // };
 
-          //         function u() {
-          //             var e = o.children(".w-webflow-badge"),
-          //                 n = e.length && e.get(0) === t,
-          //                 i = a.env("editor");
-          //             if (n) {
-          //                 i && e.remove();
-          //                 return
-          //             }
-          //             e.length && e.remove(), !i && o.append(t)
-          //         }
-          //         return n
-          //     })
-          // },
+                  function u() {
+                      var e = o.children(".w-webflow-badge"),
+                          n = e.length && e.get(0) === t,
+                          i = a.env("editor");
+                      if (n) {
+                          i && e.remove();
+                          return
+                      }
+                      e.length && e.remove(), !i && o.append(t)
+                  }
+                  return n
+              })
+          },
           60322: function(e, t, n) {
               "use strict";
               var a = n(43949);
